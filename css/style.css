@@ -934,8 +934,8 @@ h4 {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border: 1px solid #007bff;
-    background: #007bff;
+    border: 1px solid #a3ebee;
+    background: #a3ebee;
     margin-bottom: 1.5rem;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -1313,7 +1313,7 @@ h4 {
 
 .site-footer.slanted-footer:before {
     content: "";
-    background: #001f42;
+    background: white;
     height: 200px;
     -webkit-transform: skewY(-5deg);
     -ms-transform: skewY(-5deg);
@@ -1343,6 +1343,11 @@ h4 {
     margin-bottom: .5rem;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .site-footer ul li a {
     color: #007bff;
 }
@@ -1358,7 +1363,7 @@ h4 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #007bff;
+    background: #EED7A3;
     left: 50%;
     -webkit-transform: translate(-50%, -250%);
     -ms-transform: translate(-50%, -250%);
@@ -1375,7 +1380,7 @@ h4 {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: #fff !important;
+    color: black !important;
 }
 
 .copyright {
@@ -1388,7 +1393,7 @@ h4 {
     width: 40px;
     height: 40px;
     position: relative;
-    background: #007bff;
+    background: #E8AC2A;
     border-radius: 50%;
     text-decoration: none !important;
 }
@@ -1427,22 +1432,22 @@ h4 {
     font-size: .8rem;
     margin: 5px;
     background: rgba(52, 58, 64, 0.05);
-    color: #343a40;
+    color: #73b5b8;
     text-transform: uppercase;
 }
 
 .filters .btn:hover {
     border-color: transparent;
-    background: #007bff;
+    background: #77b5b8;
     color: #fff;
 }
 
 .filters .btn.active {
-    background: #007bff !important;
+    background: #77b5b8 !important;
     color: #fff;
-    border-color: #007bff !important;
-    -webkit-box-shadow: 0 4px 15px -3px rgba(0, 123, 255, 0.5) !important;
-    box-shadow: 0 4px 15px -3px rgba(0, 123, 255, 0.5) !important;
+    border-color: #77b5b8 !important;
+    -webkit-box-shadow: 0 4px 15px -3px #77b5b8 !important;
+    box-shadow: 0 4px 15px -3px #77b5b8 !important;
 }
 
 
