@@ -76,6 +76,7 @@
 .site-navbar .site-navigation .site-menu>li>a {
     padding: 20px 20px;
     color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
     display: inline-block;
     text-decoration: none !important;
 }
@@ -875,6 +876,10 @@ h4 {
 
 .btn-md {
     padding: 12px 20px;
+}
+
+.btn-md2 {
+    padding: 7px 13px;
 }
 
 .slanted:after,
