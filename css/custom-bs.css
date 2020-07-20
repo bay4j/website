@@ -71,7 +71,7 @@ body {
     line-height: 1.5;
     color: #7f848c;
     text-align: left;
-    background-color: #fff;
+    background-color: white;
 }
 
 [tabindex="-1"]:focus {
@@ -2772,8 +2772,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0065cc;
-    border-color: #005fbf;
+    background-color: #77b5b8;
+    border-color: #77b5b8;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
