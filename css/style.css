@@ -26,6 +26,9 @@
     .site-navbar .site-logo {
         position: relative;
     }
+    .section-hero.overlay, .section-hero.section-hero.overlay-2{
+        background-size: contain;
+    }
 }
 
 .site-navbar .site-logo a {
@@ -82,7 +85,7 @@
 }
 
 .site-navbar .site-navigation .site-menu>li>a:hover {
-    text-shadow: 0 0 2px #E8AC2A;
+    text-shadow: 0 0 2px #ffbfec;
 }
 
 .site-navbar .site-navigation .site-menu .has-children {
@@ -787,6 +790,8 @@ h4 {
 .section-hero.overlay,
 .section-hero.overlay-2 {
     position: relative;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 .section-hero.overlay:before,
