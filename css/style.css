@@ -685,7 +685,33 @@ h4 {
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
+.home-section .scroll-button2 {
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #EED7A3;
+    left: 50%;
+    -webkit-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    -webkit-box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
 .home-section .scroll-button>span {
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.home-section .scroll-button2>span {
     position: absolute;
     font-size: 2rem;
     top: 50%;
@@ -901,6 +927,16 @@ h4 {
     z-index: 1;
 }
 
+.flexbox-centering {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewport-sizing {
+  font-size: 5vw;
+}
+
 .slanted-home:after{
     content: "";
     background: black;
@@ -938,6 +974,92 @@ h4 {
     font-size: 1rem;
     display: block;
     color: #adb5bd;
+}
+
+.bigproject .smallproject {
+    background: #fff;
+    padding: 30px;
+    height:auto;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    top: 0;
+    position: relative;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.bigproject .smallproject .custom-icon {
+    display: block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #ffbfec;
+    background: #ffbfec;
+    margin-bottom: 1.5rem;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    
+}
+
+.bigproject .smallproject .custom-icon:before {
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    content: "";
+    width: 90px;
+    height: 90px;
+    border: 1px solid rgba(0, 123, 255, 0.2);
+    
+}
+
+.bigproject .smallproject [class^="icon-"],
+.bigproject .smallproject [class^="flaticon-"] {
+    font-size: 1.6rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: 0.3s all cubic-bezier(0.66, 0.2, 0.48, 0.9);
+    -o-transition: 0.3s all cubic-bezier(0.66, 0.2, 0.48, 0.9);
+    transition: 0.3s all cubic-bezier(0.66, 0.2, 0.48, 0.9);
+}
+
+.bigproject .smallproject h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.bigproject .smallproject p {
+    color: #212529;
+}
+
+.bigproject .smallproject:hover {
+    opacity: 1;
+}
+
+@media (max-width: 991.98px) {
+    .bigproject .smallproject:hover {
+        top: 0;
+    }
+}
+
+.bigproject .smallproject:hover .custom-icon {
+    background: transparent;
+}
+
+.bigproject .smallproject:hover .custom-icon [class^="icon-"],
+.bigproject .smallproject:hover .custom-icon [class^="flaticon-"] {
+    color: #007bff;
 }
 
 .block__62849 .block__16443 {
@@ -1023,6 +1145,8 @@ h4 {
 .block__62849 .block__16443:hover .custom-icon [class^="flaticon-"] {
     color: #007bff;
 }
+
+
 
 .block__62272 .section-title {
     font-size: 2rem;
