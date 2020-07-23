@@ -937,6 +937,14 @@ h4 {
   font-size: 5vw;
 }
 
+.viewport-sizing2 {
+  font-size: 4vw;
+}
+
+.viewport-sizing3 {
+  font-size: 3.5vw;
+}
+
 .slanted-home:after{
     content: "";
     background: black;
