@@ -18,6 +18,15 @@ if($_POST["submit"]) {
 
 <html>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173464330-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-173464330-1');
+    </script>
     <meta charset="utf-8">
     <title>Contact form to email</title>
 </head>
