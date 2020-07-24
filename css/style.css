@@ -994,7 +994,7 @@ h4 {
     top: 0;
     position: relative;
     text-decoration: none;
-    opacity: 0.8;
+    filter: brightness(80%);
 }
 
 .bigproject .smallproject .custom-icon {
@@ -1052,7 +1052,7 @@ h4 {
 }
 
 .bigproject .smallproject:hover {
-    opacity: 1;
+    filter: brightness(130%);
 }
 
 @media (max-width: 991.98px) {
