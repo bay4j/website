@@ -112,7 +112,7 @@
     visibility: hidden;
     opacity: 0;
     top: 100%;
-    width: 150px;
+    width: 170px;
     position: absolute;
     text-align: left;
     border-top: 1px solid #ffbfec;
@@ -1052,7 +1052,7 @@ h4 {
 }
 
 .bigproject .smallproject:hover {
-    filter: brightness(130%);
+    filter: brightness(105%);
 }
 
 @media (max-width: 991.98px) {
